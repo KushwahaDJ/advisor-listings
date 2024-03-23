@@ -1,0 +1,45 @@
+:root {
+  --blue: #0bb1b1;
+  --gray: #f0f0f0;
+}
+
+.App {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 824px;
+  margin-bottom: 124px;
+}
+.App h1{
+  margin: 48px auto 64px;
+}
+.App .title{
+  color: var(--blue);
+  font-weight: 500;
+  margin-left: 16px;
+}
+.tile{
+  border-bottom: 1px solid var(--gray);
+  padding: 12px 0;
+  display: 'flex';
+  justify-content: space-between;
+}
+.App button{
+  display: block;
+  font-size: 12px;
+  margin-bottom: 7px;
+  width: 120px;
+  padding: 3px;
+  background-color: var(--blue);
+}
+.price{
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 8px;
+  font-weight: 12px;
+}
+.App .icons{
+  font-size: 14px;
+  padding-right: 6px;
+  position: relative;
+  top: 3px;
+}
